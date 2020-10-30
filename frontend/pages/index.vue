@@ -215,16 +215,106 @@
         <div class="column is-3 right-img is-hidden-mobile"></div>
       </div>
     </section>
+    <!-- Quote Component -->
+    <section class="py-6 mt-6 mb-6">
+      <div class="container has-text-centered">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <p class="is-size-3 has-text-left-mobile has-text-grey">
+              "Truth is ever to be found in simplicity, and not in the
+              multiplicity and confusion of things."
+            </p>
+            <p class="is-size-5 has-text-grey mt-5">Isaac Newton</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products you already use -->
+    <section class="py-6 mt-6 mb-6">
+      <div class="container">
+        <div class="columns is-variable is-8">
+          <div class="column is-6">
+            <h5
+              class="is-size-3 mb-3 has-text-left has-text-weight-semibold has-text-grey-dark"
+            >
+              Easily connects with the tools you already use.
+            </h5>
+            <p class="is-size-6 mt-5 has-text-grey">
+              Integrate your community directly with your website, with your
+              blog, with another social network or simply into a giveaway pool.
+            </p>
+            <p class="is-size-6 mt-5 has-text-grey">
+              However, you can also use SlimLink if you want to minimize the
+              size of a link from a partnership you have made or an advertising
+              campaign that you are part of.
+            </p>
+            <p class="is-size-6 mt-5 has-text-grey">
+              You can rest assured that you can use this same platform, whether
+              for non-monetary projects or as another tool in your marketing or
+              advertising arsenal.
+            </p>
+          </div>
+          <div class="column is-6">
+            <img
+              src="https://global-uploads.webflow.com/5dc6336c6ade633733ef6e44/5f33de84363a686042550ff3_feature-integrations%402x.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+    <section class="py-6 mt-6 mb-6">
+      <div class="container has-text-centered">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <h1
+              class="is-size-3 has-text-left-mobile has-text-weight-semibold has-text-dark"
+            >
+              Pricing
+            </h1>
+            <p class="is-size-5 mt-5 mb-6 has-text-left-mobile has-text-grey">
+              The platform is completely free. Start enjoying it right now.
+            </p>
+            <div class="card remove-shadow has-background-white-bis">
+              <div class="card-content">
+                <div class="content">
+                  <div class="columns py-6">
+                    <div class="column">Left</div>
+                    <div class="column has-text-centered">
+                      <h1 class="is-size-2 has-text-grey has-text-weight-light">
+                        <span
+                          class="is-size-2 has-text-dark has-text-weight-semibold"
+                          >€ 0</span
+                        >/mo
+                      </h1>
+                      <vs-button flat> Get Started for Free </vs-button>
+                      <small class="has-text-grey"
+                        >No credit card required.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <Footer />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import Navbar from '../components/Navbar.vue'
+import Footer from '../components/Footer.vue'
 
 export default Vue.extend({
   components: {
     Navbar,
+    Footer,
   },
 })
 </script>
