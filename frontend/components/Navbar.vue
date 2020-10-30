@@ -17,3 +17,9 @@ import Vue from 'vue'
 
 export default Vue.extend({})
 </script>
+
+<style scoped>
+h3 {
+  font-weight: 500;
+}
+</style>

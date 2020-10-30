@@ -1,8 +1,13 @@
 <template>
   <div>
-    <Navbar />
+    <!-- Navbar -->
+    <section class="pb-6">
+      <div class="container">
+        <Navbar />
+      </div>
+    </section>
     <!-- Hero Landing -->
-    <section class="hero mt-6">
+    <section class="hero">
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="columns is-centered py-6">
