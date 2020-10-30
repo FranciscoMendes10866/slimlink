@@ -5,14 +5,14 @@
         <h3>SlimLink</h3>
       </template>
       <vs-navbar-item :active="active == 'home'" id="home">
-        Home
+        <p>Home</p>
       </vs-navbar-item>
       <vs-navbar-item :active="active == 'about'" id="about">
-        About
+        <p>About</p>
       </vs-navbar-item>
       <template #right>
-        <vs-button flat>Login</vs-button>
-        <vs-button>Get Started</vs-button>
+        <vs-button flat>Sign in</vs-button>
+        <vs-button>Sign up</vs-button>
       </template>
     </vs-navbar>
   </div>
