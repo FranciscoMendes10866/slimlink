@@ -23,7 +23,7 @@
                 create as many links as you want and you can use the same
                 account on several devices simultaneously without any problems.
               </p>
-              <vs-button class="mt-6 reset-btn" size="large" floating>
+              <vs-button class="mt-6 reset" size="large" floating>
                 Get Started for Free
               </vs-button>
             </div>
@@ -230,7 +230,7 @@
             task as soon as you understand. The link will not be deleted
             organically.
           </p>
-          <vs-button class="mt-6 reset-btn" size="large" floating>
+          <vs-button class="mt-6 reset" size="large" floating>
             Let's Begin
           </vs-button>
         </div>
@@ -303,7 +303,7 @@
                 <div class="content">
                   <div class="columns is-align-items-center">
                     <div class="column">
-                      <ul class="has-text-grey has-text-left">
+                      <ul class="has-text-grey has-text-left reset">
                         <li class="ok-hand">
                           <small>Unlimited links</small>
                         </li>
@@ -334,7 +334,7 @@
                             >€ 0</span
                           >/mo
                         </h1>
-                        <vs-button class="reset-btn mb-4" flat>
+                        <vs-button class="reset mb-4" flat>
                           Get Started for Free
                         </vs-button>
                         <small class="has-text-grey-light sm-txt"
@@ -409,7 +409,7 @@ export default Vue.extend({
 .sm-txt {
   font-size: 13px;
 }
-.reset-btn {
+.reset {
   margin: auto;
 }
 </style>
