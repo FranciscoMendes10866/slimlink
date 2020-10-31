@@ -120,22 +120,22 @@
               <br /><br />
               <small class="has-text-grey">Including examples ...</small>
               <ul class="mt-5 has-text-grey">
-                <li>
+                <li class="bunny">
                   <small>Youtube Descriptions</small>
                 </li>
-                <li>
-                  <small> Instagram Bio</small>
+                <li class="bunny">
+                  <small>Instagram Bio</small>
                 </li>
-                <li>
-                  <small> Link on Facebook post</small>
+                <li class="bunny">
+                  <small>Link on Facebook post</small>
                 </li>
-                <li>
+                <li class="bunny">
                   <small>Affiliate link</small>
                 </li>
-                <li>
+                <li class="bunny">
                   <small>Place in newsletters</small>
                 </li>
-                <li>
+                <li class="bunny">
                   <small>And much more</small>
                 </li>
               </ul>
@@ -301,19 +301,44 @@
             <div class="card remove-shadow has-background-white-bis">
               <div class="card-content">
                 <div class="content">
-                  <div class="columns py-6">
-                    <div class="column">Left</div>
+                  <div class="columns is-align-items-center">
+                    <div class="column">
+                      <ul class="has-text-grey has-text-left">
+                        <li class="ok-hand">
+                          <small>Unlimited links</small>
+                        </li>
+                        <li class="ok-hand">
+                          <small>Unlimited seats</small>
+                        </li>
+                        <li class="ok-hand">
+                          <small>Redirect unlimited links</small>
+                        </li>
+                        <li class="ok-hand">
+                          <small>Custom Slug</small>
+                        </li>
+                        <li class="ok-hand">
+                          <small>Number of clicks allowed</small>
+                        </li>
+                        <li class="ok-hand">
+                          <small>SSL protection</small>
+                        </li>
+                      </ul>
+                    </div>
                     <div class="column has-text-centered">
-                      <h1 class="is-size-2 has-text-grey has-text-weight-light">
-                        <span
-                          class="is-size-2 has-text-dark has-text-weight-semibold"
-                          >€ 0</span
-                        >/mo
-                      </h1>
-                      <vs-button flat> Get Started for Free </vs-button>
-                      <small class="has-text-grey"
-                        >No credit card required.</small
-                      >
+                      <div>
+                        <h1
+                          class="is-size-2 has-text-grey has-text-weight-light"
+                        >
+                          <span
+                            class="is-size-2 has-text-dark has-text-weight-semibold"
+                            >€ 0</span
+                          >/mo
+                        </h1>
+                        <vs-button flat> Get Started for Free </vs-button>
+                        <small class="has-text-grey-light sm-txt"
+                          >No credit card required.</small
+                        >
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -359,14 +384,27 @@ export default Vue.extend({
   background-position: left;
   position: relative;
 }
-li {
+.bunny {
   list-style: none;
 }
-li:not(:last-child) {
+.bunny:not(:last-child) {
   margin-bottom: 10px;
 }
-li::before {
+.bunny::before {
   content: '\1F430';
   margin-right: 10px;
+}
+.ok-hand {
+  list-style: none;
+}
+.ok-hand:not(:last-child) {
+  margin-bottom: 10px;
+}
+.ok-hand::before {
+  content: '\1F44c';
+  margin-right: 10px;
+}
+.sm-txt {
+  font-size: 13px;
 }
 </style>
