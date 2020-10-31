@@ -327,14 +327,14 @@
                     <div class="column has-text-centered">
                       <div>
                         <h1
-                          class="is-size-2 has-text-grey has-text-weight-light"
+                          class="is-size-1 has-text-grey has-text-weight-light mb-4"
                         >
                           <span
-                            class="is-size-2 has-text-dark has-text-weight-semibold"
+                            class="is-size-1 has-text-dark has-text-weight-semibold"
                             >€ 0</span
                           >/mo
                         </h1>
-                        <vs-button class="reset mb-4" flat>
+                        <vs-button class="reset mb-4" size="large" flat>
                           Get Started for Free
                         </vs-button>
                         <small class="has-text-grey-light sm-txt"
@@ -407,7 +407,7 @@ export default Vue.extend({
   margin-right: 10px;
 }
 .sm-txt {
-  font-size: 13px;
+  font-size: 14px;
 }
 .reset {
   margin: auto;
