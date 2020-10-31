@@ -111,12 +111,34 @@
               >
                 👋&nbsp;Easily redirect any link
               </h4>
-              <small class="has-text-grey">
+              <small class="has-text-grey mb-3">
                 Change the destination URL for any short link, including QR
                 Codes. Bitly makes it easy to assign a new URL to any of your
                 links, whether you want to correct a destination error, update a
                 destination or manually expire old links.
               </small>
+              <br /><br />
+              <small class="has-text-grey">Including examples ...</small>
+              <ul class="mt-5 has-text-grey">
+                <li>
+                  <small>Youtube Descriptions</small>
+                </li>
+                <li>
+                  <small> Instagram Bio</small>
+                </li>
+                <li>
+                  <small> Link on Facebook post</small>
+                </li>
+                <li>
+                  <small>Affiliate link</small>
+                </li>
+                <li>
+                  <small>Place in newsletters</small>
+                </li>
+                <li>
+                  <small>And much more</small>
+                </li>
+              </ul>
             </div>
           </div>
           <div class="tile is-4 is-vertical is-parent">
@@ -336,5 +358,15 @@ export default Vue.extend({
   background-size: cover;
   background-position: left;
   position: relative;
+}
+li {
+  list-style: none;
+}
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
+li::before {
+  content: '\1F430';
+  margin-right: 10px;
 }
 </style>
