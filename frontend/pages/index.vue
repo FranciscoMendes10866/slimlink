@@ -23,7 +23,7 @@
                 create as many links as you want and you can use the same
                 account on several devices simultaneously without any problems.
               </p>
-              <vs-button class="mt-6 ab" size="large" floating>
+              <vs-button class="mt-6 reset-btn" size="large" floating>
                 Get Started for Free
               </vs-button>
             </div>
@@ -230,7 +230,7 @@
             task as soon as you understand. The link will not be deleted
             organically.
           </p>
-          <vs-button class="mt-6 ab" size="large" floating>
+          <vs-button class="mt-6 reset-btn" size="large" floating>
             Let's Begin
           </vs-button>
         </div>
@@ -334,7 +334,9 @@
                             >€ 0</span
                           >/mo
                         </h1>
-                        <vs-button flat> Get Started for Free </vs-button>
+                        <vs-button class="reset-btn mb-4" flat>
+                          Get Started for Free
+                        </vs-button>
                         <small class="has-text-grey-light sm-txt"
                           >No credit card required.</small
                         >
@@ -406,5 +408,8 @@ export default Vue.extend({
 }
 .sm-txt {
   font-size: 13px;
+}
+.reset-btn {
+  margin: auto;
 }
 </style>
