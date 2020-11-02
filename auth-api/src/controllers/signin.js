@@ -15,7 +15,10 @@ const signin = async (req, res) => {
             })
         }
         const token = jwt.sign({ id: find._id }, process.env.JWT_KEY)
-        return res.json({ token })
+        return res.json({
+            username: find.username,
+            token
+        })
     } catch (err) {
         console.log(err)
     }
