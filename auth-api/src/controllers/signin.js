@@ -8,7 +8,7 @@ const signin = async (req, res) => {
         const find = await collection.findOne({
             username: req.body.username
         })
-        const validate = await bcrypt.compareSync(req.body.password, find.password)
+        const validate = bcrypt.compareSync(req.body.password, find.password)
         if (!validate) {
             return res.json({
                 'status': 404
