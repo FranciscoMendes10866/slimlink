@@ -2,6 +2,16 @@
 
 SlimLink is a completely free and Open Source url shortener that also has some management features for the links generated on the platform.
 
+## Frontend
+
+The frontend was made with [Nuxt.js](https://nuxtjs.org/), [Bulma](https://bulma.io/) and [Vuesax](https://vuesax.com/).
+
+To run the development command:
+
+```bash
+yarn dev
+```
+
 ## Auth API
 
 The Auth API was created in [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/) and [Monk](https://automattic.github.io/monk/docs/GETTING_STARTED.html).
