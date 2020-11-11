@@ -5,8 +5,8 @@
         <h3>SlimLink</h3>
       </template>
       <template #right>
-        <vs-button flat>Sign in</vs-button>
-        <vs-button>Sign up</vs-button>
+        <vs-button flat to="/signin">Sign in</vs-button>
+        <vs-button to="/signup">Sign up</vs-button>
       </template>
     </vs-navbar>
   </div>
