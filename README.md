@@ -14,7 +14,7 @@ yarn dev
 
 ## Auth API
 
-The Auth API was created in [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/) and [Monk](https://automattic.github.io/monk/docs/GETTING_STARTED.html).
+The Auth API was created in [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/), [Monk](https://automattic.github.io/monk/docs/GETTING_STARTED.html) and [JsonWebToken](https://github.com/auth0/node-jsonwebtoken#readme).
 
 To run the development command:
 
@@ -24,7 +24,7 @@ yarn dev
 
 ## Links API
 
-Like the Auth API, it was also made with [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/) and [Monk](https://automattic.github.io/monk/docs/GETTING_STARTED.html). And the operations that can be done are a basic CRUD.
+Like the Auth API, it was also made with [Node.js](https://nodejs.org/en/), [Express.js](https://expressjs.com/), [Monk](https://automattic.github.io/monk/docs/GETTING_STARTED.html) and [JsonWebToken](https://github.com/auth0/node-jsonwebtoken#readme). And the operations that can be done are a basic CRUD.
 
 To run the development command:
 
