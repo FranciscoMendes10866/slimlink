@@ -36,7 +36,7 @@ go run .
 
 If you have [Docker](https://docs.docker.com/develop/) installed and if you want to use the same configuration that I used during the development of this project. At the root of the repository there is a [docker-compose](https://docs.docker.com/compose/) file.
 
-To run the following command:
+Run the following command:
 
 ```bash
 docker-compose up -d
