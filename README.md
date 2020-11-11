@@ -34,7 +34,7 @@ go run .
 
 ## Database
 
-If you want to try the project, at the root of the repository I have a [docker-compose](https://docs.docker.com/compose/) file to create the appropriate containers.
+If you have [Docker](https://docs.docker.com/develop/) installed and if you want to use the same configuration that I used during the development of this project. At the root of the repository there is a [docker-compose](https://docs.docker.com/compose/) file.
 
 To run the following command:
 
